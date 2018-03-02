@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { WetTableComponent } from './wet-table/wet-table.component';
+import { RandomContentComponent } from './random-content/random-content.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WetTableComponent,
+    RandomContentComponent
   ],
   imports: [
     BrowserModule
